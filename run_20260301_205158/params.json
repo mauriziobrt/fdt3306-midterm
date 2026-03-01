@@ -1,0 +1,27 @@
+{
+  "run_id": "20260301_205158",
+  "model": "stabilityai/stable-audio-open-1.0",
+  "prompt_list": [
+    "cello solo melody ascending",
+    "cello solo melody",
+    "cello solo C4",
+    "cello grand-piano C4",
+    "grand-piano C4"
+  ],
+  "seed": 
+    [3894214384,
+    3045576898,
+    384632784,
+    2693071279,
+    3077592590],
+  "seconds_start": 0,
+  "seconds_total": 30,
+  "steps": 100,
+  "cfg_scale": 7,
+  "sigma_min": 0.3,
+  "sigma_max": 500,
+  "sampler_type": "dpmpp-3m-sde",
+  "device": "mps",
+  "sample_rate": 44100,
+  "sample_size": 2097152
+}

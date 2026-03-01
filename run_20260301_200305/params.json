@@ -1,0 +1,22 @@
+{
+  "run_id": "20260301_200305",
+  "model": "stabilityai/stable-audio-open-1.0",
+  "prompt_list": [
+    "nature birds chirping forest",
+    "nature birds chirping city",
+    "nature birds horns city",
+    "nature car horns city",
+    "traffic car horns city"
+  ],
+  "seeds": [2207986682,970044644, 1868895965, 3625517360 ,1702567913],
+  "seconds_start": 0,
+  "seconds_total": 30,
+  "steps": 100,
+  "cfg_scale": 7,
+  "sigma_min": 0.3,
+  "sigma_max": 500,
+  "sampler_type": "dpmpp-3m-sde",
+  "device": "mps",
+  "sample_rate": 44100,
+  "sample_size": 2097152
+}
